@@ -1,10 +1,11 @@
 import React from 'react';
-import { Text, ScrollView, Platform } from 'react-native';
+import { Text, Platform } from 'react-native';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import SyntaxHighlighterPrism from 'react-syntax-highlighter/prism';
 import { createStyleObject } from 'react-syntax-highlighter/create-element';
 import { defaultStyle } from'react-syntax-highlighter/styles/hljs';
 import { prism as prismDefaultStyle } from'react-syntax-highlighter/styles/prism'; 
+import { ScrollView } from 'react-native-gesture-handler'
 
 const styleCache = new Map();
 
